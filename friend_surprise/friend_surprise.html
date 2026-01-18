@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You 💫</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f6d365, #fda085);
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    .subtitle {
+      text-align: center;
+      font-style: italic;
+      margin-top: -10px;
+    }
+    .memories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .memory {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+    }
+    .memory img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 8px;
+    }
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 30px;
+      background: #ff7a7a;
+      color: #fff;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #ff5252;
+    }
+    .hidden {
+      display: none;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Happy birthday Manyaaa!!!</h1>
+      <p class="subtitle">Miles apart, but always close at heart</p>
+    </div><div class="card">
+  <h2>A Little surprise to you 💌</h2>
+  <p>
+    survied my collage because of you.Funny,dramatic,crazy perosn like you who make everyone smile . You are the person who treat everyone with love even though they are not good to you.Remember those days were we used to laugh like hell sitting in last bench craking jokes laughing on samll things. the known person to all in the collage our small group enjoyed every little things in collage though we hate the collge a lott.You are very special to me loveee youuu manyaaaaaa:>. Miss youu hope u wont forget mee.May be i have hurt you many times but i will always be there for when ever you want mee....
+  </p>
+</div>
+
+<div class="card">
+  <h2>Our Memories ✨</h2>
+  <div class="memories">
+    <div class="memory">
+      <img src="memory1.jpg.jpeg"/>
+      <p>That moment we laughed till it hurt 😂</p>
+    </div>
+    <div class="memory">
+      <img src="memory2.jpg.jpeg"/>
+      <p>Beautifull soul🌙</p>
+    </div>
+    <div class="memory">
+      <img src="memory3.jpg.jpeg"/>
+      <p>cute person with short hight 🌈</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>A Small Surprise 🎁</h2>
+  <button onclick="showSurprise()">Click to Reveal</button>
+  <p id="surprise" class="hidden">
+    No matter where life takes us, I know our friendship will always stay the
+    same. One day, we'll look back at this distance and smile. Until then,
+    remember you are never alone 💖
+  </p>
+</div>
+
+<footer>
+  Made with love and memories 🌟
+</footer>
+
+  </div>  <script>
+    function showSurprise() {
+      document.getElementById('surprise').classList.remove('hidden');
+    }
+  </script></body>
+</html>
